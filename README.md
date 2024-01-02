@@ -4,9 +4,9 @@
 
 - [Challenge 2: Three-Way Merge Practice by using Pull Request](#challenge-2-three-way-merge-practice-by-using-pull-request)
 
-- [Challenge 3: Feature Toggle](#challenge-4-feature-toggle)
+- [Challenge 3: Feature Toggle](#challenge-3-feature-toggle)
 
-- [Challenge 4: Tag version](#challenge-3-tag-version)
+- [Challenge 4: Tag version](#challenge-4-tag-version)
 
 # Prerequisites
 - [Git](https://git-scm.com/downloads)

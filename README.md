@@ -23,4 +23,51 @@ git clone <your-forked-repository-url>
 ```
 
 ## Challenge 1: Three-Way Merge Practice by using git commit and git merge
+### Guide:
+- Create a new branch from the `main` branch e.g. `maithai-feature`
+- Checkout to the new branch
+- Edit the `CONTRIBUTORS.md` file by adding your name to the `Contributors` section
+- Commit the changes
+- Checkout to the `main` branch
+- Merge the new branch to the `main` branch
+- Push the changes to the remote repository at main branch
+verify by using `git log --graph --oneline`. You should see the commit history like below:
+```bash
+* commit C (main): Merge branch 'maithai-feature'
+|\
+| * commit B (maithai-feature): Implement feature A
+|/
+* commit A: Initial project setup
+```
 
+<details>
+<summary>Hint Challenge 1 (try it your self first before open this hint)</summary>
+
+- Create a new branch from the `main` branch e.g. `maithai-feature`
+```bash
+git branch maithai-feature
+```
+- Checkout to the new branch
+```bash
+git checkout maithai-feature
+```
+- Edit the `CONTRIBUTORS.md` file by adding your name to the `Contributors` section
+- Commit the changes
+```bash
+git add CONTRIBUTORS.md
+git commit -m "Add my name to the Contributors section"
+```
+- Checkout to the `main` branch
+```bash
+git checkout main
+```
+- Merge the new branch to the `main` branch
+```bash
+git merge maithai-feature --no-ff
+```
+- Push the changes to the remote repository at main branch
+```bash
+git push origin main
+```
+
+</details>

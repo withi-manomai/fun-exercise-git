@@ -163,3 +163,32 @@ git push origin main
 
 </details>
 
+## Challenge 4: Tag version
+### Guide:
+- Checkout to the `main` branch
+- Create a new tag e.g. `v1.0.0`
+- Push the tag to the remote repository
+- Verify by using `git tag`. You should see the tag that you created or look at the GitHub repository tag section
+```bash
+v1.0.0
+```
+
+<details>
+<summary>Hint Challenge 4 (try it your self first before open this hint)</summary>
+
+- Checkout to the `main` branch
+```bash
+git checkout main
+```
+
+- Create a new tag e.g. `v1.0.0`
+```bash
+git tag -a v1.0.0 -m "Release version 1.0.0 : send email notification"
+```
+
+- Push the tag to the remote repository
+```bash
+git push origin --tags
+```
+
+</details>

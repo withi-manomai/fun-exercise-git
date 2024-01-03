@@ -129,14 +129,19 @@ git pull origin main
 ## Challenge 3: Feature Toggle
 ### Guide:
 - Checkout to the `main` branch
-- Enable the feature by changing the featureToggle.setEmailNotificationEnabled to `true`
-- Verify the result make sure the email notification is sent to the email address that you specified
+- `make run` or `javac Main.java` then `java Main` to verify the result. You should see Sending via SMS.
+```bash
+Email notification feature toggle is DISABLED
+Sending SMS to 0812345678: Hello, Java!
+```
+- Enable the Email feature by changing the featureToggle.setEmailNotificationEnabled to `true`
+- Verify the result make sure the email notification is sent to the email address that you specified by using `make run` then see the result.
 - Commit the changes on the `main` branch
 - Push the changes to the remote repository at the `main` branch
 verify by using `make run`. You should see the email notification is sent to the email address that you specified
 ```bash
 Email notification feature toggle is ENABLED
-Sending email to kbtg@kampus.com: Hello, Java!
+Sending email to kbtg@kampus.tech: Hello, Java!
 ```
 
 <details>

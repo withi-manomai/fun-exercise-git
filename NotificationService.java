@@ -5,13 +5,13 @@ public class NotificationService {
         this.featureToggle = featureToggle;
     }
 
-    public void sendNotification(String message, String recipient) {
+    public void sendNotification(String message, Contact contact) {
         if (featureToggle.isEmailNotificationEnabled()) {
             System.out.println("Email notification feature toggle is ENABLED");
-            sendEmailNotification(message, recipient);
+            sendEmailNotification(message, contact.getEmail());
         } else {
             System.out.println("Email notification feature toggle is DISABLED");
-            sendSMSNotification(message, recipient);
+            sendSMSNotification(message, contact.getPhoneNumber());
         }
     }
 

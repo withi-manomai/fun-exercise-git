@@ -35,7 +35,7 @@ verify by using `git log --graph --oneline`. You should see the commit history l
 ```bash
 * commit C (main): Merge branch 'maithai-feature'
 |\
-| * commit B (maithai-feature): Implement feature A
+| * commit B (maithai-feature): Implement feature Maithai
 |/
 * commit A: Initial project setup
 ```
@@ -87,11 +87,11 @@ git push origin main
 ```bash
 * commit E (HEAD -> main, origin/main): Merge pull request #1 from <your-github-username>/monkan-feature
 |\
-| * commit C (monkan-feature): Implement feature A
+| * commit C (monkan-feature): Implement feature Monkan
 |/
 * commit C (main): Merge branch 'maithai-feature'
 |\
-| * commit B (maithai-feature): Implement feature A
+| * commit B (maithai-feature): Implement feature Maithai
 |/
 * commit A: Initial project setup
 ```

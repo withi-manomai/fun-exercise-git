@@ -14,7 +14,7 @@
 
 # Instructions
 ## Step 1: Fork the repository
-- Click on the `Fork` button on the top right corner of this page (fork the repository to your own GitHub account)[https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository]
+- Click on the `Fork` button on the top right corner of this page [fork the repository to your own GitHub account](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository)
 
 ## Step 2: Clone the forked repository to your local machine
 - Clone the forked repository to your local machine

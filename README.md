@@ -129,6 +129,7 @@ git pull origin main
 ## Challenge 3: Feature Toggle
 ### Guide:
 - Checkout to the `main` branch
+- Go to challenge3 directory `cd challenge3` directory
 - `make run` or `javac Main.java` then `java Main` to verify the result. You should see Sending via SMS.
 ```bash
 Email notification feature toggle is DISABLED
@@ -151,6 +152,7 @@ Sending email to kbtg@kampus.tech: Hello, Java!
 ```bash
 git checkout main
 ```
+- Go to challenge3 directory `cd challenge3` directory
 - Enable the feature by changing the featureToggle.setEmailNotificationEnabled to `true`
 - Verify the result make sure the email notification is sent to the email address that you specified
 ```bash
@@ -158,7 +160,7 @@ make run
 ```
 - Commit the changes on the `main` branch
 ```bash
-git add src/main/java/com/kbtg/kampus/featuretoggle/FeatureToggle.java
+git add Main.java
 git commit -m "Enable email notification feature toggle"
 ```
 - Push the changes to the remote repository at the `main` branch

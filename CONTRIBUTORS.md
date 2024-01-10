@@ -1,2 +1,2 @@
 # Contributors
-- [Withi](withi@github.com)
+- [Withi Manomai](withi@github.com)
